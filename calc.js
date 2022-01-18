@@ -16,6 +16,17 @@ reader.question("What would you like to calculate?", function(input){
 
 	if (mathSymbol === "+") {
 		console.log(num1 + num2)
+	} else if (mathSymbol === "-"){
+		console.log(num1 - num2)
+	} else if (mathSymbol === "*"){
+		console.log(num1 * num2)
+	} else if (mathSymbol === "/"){
+		console.log(num1 / num2)
+	} else if (mathSymbol === "^"){
+		console.log(Math.sqrt (num1))
+		console.log(Math.sqrt (num2))
+	} else {
+		console.log("Might be too advanced for this calculator.")
 	}
 	// console.log(mathSymbol)
 	// console.log(num1)
